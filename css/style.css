@@ -103,3 +103,34 @@ div.white {
   height:auto;
   margin-right: 150px;
 }
+
+
+      /*CSS for Section 2*/
+
+.mysection2 {
+  background-color: #f3f5f9;
+  text-align: center;
+  padding: 35px 0;
+}
+
+section.mysection2 img {
+  max-width: 100%;
+}
+
+
+@media (max-width: 1200px) AND (min-width: 768px) {
+
+  #google img{
+  margin-right: 30px;
+  }
+
+  section.mysection2 img {
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+
+}
