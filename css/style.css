@@ -1,0 +1,39 @@
+body {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.navbar-header a img {
+  width: auto;
+  height: 30px;
+  padding-right: 50px;
+  padding-bottom: 7px;
+}
+
+ul.navbar-right li button {
+  color: blue;
+  border: 1px solid blue;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: blue;
+}
+
+.navbar-default {
+  background-color: white;
+}
