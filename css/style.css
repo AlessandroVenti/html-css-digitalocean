@@ -1,5 +1,4 @@
 body {
-  background-color: red;
 }
        /*Css for navbar*/
 
@@ -63,7 +62,7 @@ ul.navbar-right li button {
   margin-bottom: 30px;
 }
 
-.marginforjumbo h4 {
+.marginforjumbo p {
   font-size: 20px;
   color: lightgrey;
 }
@@ -124,6 +123,44 @@ section.mysection2 img {
   max-width: 100%;
 }
 
+      /*CSS for Section 3*/
+
+.mysection3 {
+  padding: 35px 0;
+  text-align: center;
+}
+
+section.mysection3 p {
+  color: grey;
+  font-size: 20px;
+}
+
+.myborder-list {
+  border-left: 1px solid grey;
+}
+
+div.myborder-list ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+div.myborder-list ul li {
+  padding-right: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: grey;
+}
+
+section.mysection3 img {
+  margin-top: 40px;
+  display: block;
+}
+
+section.mysection3 h3,
+section.mysection3 p {
+  text-align: left;
+}
 
 @media (max-width: 1200px) AND (min-width: 768px) {
 
