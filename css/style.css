@@ -7,6 +7,12 @@ body {
   background-color: white;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
 .navbar-header a img {
   width: auto;
   height: 30px;
@@ -44,6 +50,7 @@ ul.navbar-right li button {
 
 .myjumbotron {
   background-image: url(../img/jumbo.svg);
+  margin-top: 50px;
 }
 
 .marginforjumbo {
