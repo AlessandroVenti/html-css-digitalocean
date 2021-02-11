@@ -1,6 +1,7 @@
 body {
   background-color: red;
 }
+       /*Css for navbar*/
 
 .white {
   background-color: white;
@@ -36,4 +37,69 @@ ul.navbar-right li button {
 
 .navbar-default {
   background-color: white;
+}
+
+
+          /*CSS for jumbotron*/
+
+.myjumbotron {
+  background-image: url(../img/jumbo.svg);
+}
+
+.marginforjumbo {
+  margin: 15% 0;
+}
+
+.marginforjumbo h1 {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.marginforjumbo h4 {
+  font-size: 20px;
+  color: lightgrey;
+}
+
+div.white {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.marginforjumbo .white h2,
+.marginforjumbo .white h6{
+  text-align: center;
+}
+
+.marginforjumbo .white h2 span {
+  color: blue;
+}
+
+.marginforjumbo .white input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.marginforjumbo .white button {
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+#myfix1 {
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-color: grey;
+}
+
+#google img{
+  width:5%;
+  height:auto;
+  margin-right: 150px;
 }
