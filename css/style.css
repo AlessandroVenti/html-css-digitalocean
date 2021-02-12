@@ -50,6 +50,7 @@ ul.navbar-right li button {
 .myjumbotron {
   background-image: url(../img/jumbo.svg);
   margin-top: 50px;
+  background-size: cover;
 }
 
 .marginforjumbo {
@@ -130,7 +131,8 @@ section.mysection2 img {
   text-align: center;
 }
 
-section.mysection3 p {
+section.mysection3 p,
+section.mysection2 p {
   color: grey;
   font-size: 20px;
 }
@@ -162,6 +164,29 @@ section.mysection3 p {
   text-align: left;
 }
 
+section.mysection2 p{
+  margin-bottom: 30px;
+}
+
+section.mysection2 i.fa-chevron-left,
+section.mysection2 i.fa-chevron-right{
+  padding-top: 300px;
+  font-size: 30px;
+}
+
+section.mysection2 h6 {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-color: blue;
+}
 @media (max-width: 1200px) AND (min-width: 768px) {
 
   #google img{
