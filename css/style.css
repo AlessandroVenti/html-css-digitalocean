@@ -257,6 +257,42 @@ section.mysection7 i.fa-chevron-right{
   border-radius: 5px;
 }
 
+.myfooter {
+  background-color: #252850;
+  padding: 45px 0;
+}
+
+footer.myfooter h6 {
+  color: white;
+}
+
+footer.myfooter h6 span {
+  display: inline-block;
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer.myfooter i {
+  color: white;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+footer.myfooter ul li {
+  padding-bottom: 10px;
+}
+
+footer.myfooter ul li strong {
+  color: white;
+}
+
+footer.myfooter ul li a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+
 @media (max-width: 1200px) AND (min-width: 768px) {
 
   #google img{
@@ -279,6 +315,10 @@ section.mysection7 i.fa-chevron-right{
     font-size: 30px;
   }
 
+  footer.myfooter i {
+    margin-bottom: 30px;
+  }
+
 }
 
 
@@ -297,5 +337,9 @@ section.mysection7 i.fa-chevron-right{
   div.white img{
     max-width: 100%;
   }
-  
+
+  footer.myfooter i {
+    margin-bottom: 30px;
+  }
+
 }
